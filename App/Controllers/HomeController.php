@@ -1,13 +1,13 @@
 <?php
 namespace App\Controllers;
 
-use App\DesignPatterns\Creational\FactoryMethod\Clinet;
+
+use App\DesignPatterns\Creational\Builder\Cline;
 
 class HomeController{
 
     public function index(){
-        $clinet = new Clinet();
-        $clinet->run();
+        Cline::run();
     }
 
 }
