@@ -2,12 +2,13 @@
 namespace App\Controllers;
 
 
-use App\DesignPatterns\Creational\Builder\Cline;
+
+use App\DesignPatterns\Creational\Prototype\Clinet;
 
 class HomeController{
 
     public function index(){
-        Cline::run();
+        Clinet::run();
     }
 
 }
