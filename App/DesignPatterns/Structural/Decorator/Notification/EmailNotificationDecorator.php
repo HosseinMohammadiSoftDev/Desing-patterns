@@ -2,11 +2,11 @@
 
 namespace App\DesignPatterns\Structural\Decorator\Notification;
 
-class SMSNotificationDecorator extends NotificationDecorator
+class EmailNotificationDecorator extends NotificationDecorator
 {
     public function send(): string
     {
-        return "sendig sms" + parent::send();
+        return "sendig Email" + parent::send();
         
     }
 }

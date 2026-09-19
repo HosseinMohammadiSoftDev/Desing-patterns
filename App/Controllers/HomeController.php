@@ -3,7 +3,7 @@ namespace App\Controllers;
 
 
 
-use App\DesignPatterns\Structural\Composit\Clinet;
+use App\DesignPatterns\Structural\Decorator\Notification\Clinet;
 
 class HomeController{
 

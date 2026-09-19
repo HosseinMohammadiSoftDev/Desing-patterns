@@ -2,7 +2,7 @@
 
 namespace App\DesignPatterns\Structural\Decorator\RealWorld;
 
-class Cline
+class Clinet
 {
     public static function run()
     {
