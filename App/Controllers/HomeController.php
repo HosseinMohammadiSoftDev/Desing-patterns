@@ -3,7 +3,7 @@ namespace App\Controllers;
 
 
 
-use App\DesignPatterns\Structural\Facade\Clinet;
+use App\DesignPatterns\Structural\Flyweight\Clinet;
 
 class HomeController{
 
