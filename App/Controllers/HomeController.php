@@ -3,7 +3,7 @@ namespace App\Controllers;
 
 
 
-use App\DesignPatterns\Structural\Proxy\Clinet;
+use App\DesignPatterns\Behavioral\ChainOfResposibilty\Clinet;
 
 class HomeController{
 

@@ -2,12 +2,12 @@
 
 namespace App\DesignPatterns\Behavioral\ChainOfResposibilty;
 
-class ThrottelMiddleware implements Middleware
+class ThrottleMiddleware implements Middleware
 {
 
     public function handle($request, $next)
     {
-        echo 'Throttel request';
+        echo 'Throttle request';
         return $next($request);
     }
 }
