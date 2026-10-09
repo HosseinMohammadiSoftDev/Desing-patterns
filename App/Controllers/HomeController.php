@@ -3,7 +3,7 @@ namespace App\Controllers;
 
 
 
-use App\DesignPatterns\Behavioral\Command\Clinet;
+use App\DesignPatterns\Behavioral\Mediator\Clinet;
 
 class HomeController{
 
